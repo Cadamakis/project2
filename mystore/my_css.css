@@ -1,0 +1,64 @@
+* {
+	margin: 5;
+	padding: 2;
+	box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(#1111ff, #cc1111);
+	height: 20;
+	color: black;
+
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.875em; 
+	text-align-last: center;
+        text-decoration-line: underline;
+}
+
+INPUT{
+            text-decoration-line: underline;
+}
+
+h3 {
+	text-align-last: center;
+	text-decoration-line: underline;
+}
+
+h4 {
+	text-align-last: center;
+	text-decoration-line: underline;
+}
+
+p {
+	font-size: 0.8em; 
+}
+
+li{
+	font-size: 1.25em; 
+}
+
+
+.text_bottom_right{
+	font-size: 0.75em; 
+	text-align-last: end;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+	color: rgba(211,211,0);
+}
+
+.text_size{
+	font-size: 0.9em;
+}
+
+.tab {
+	font-size: 0.75em;
+	margin-left: 2.5em
+}
+

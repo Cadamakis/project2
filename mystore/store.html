@@ -1,0 +1,31 @@
+<html>
+<body>
+<meta charset="utf-8">
+<title>Insert Product to Bucket</title>
+<link href="my_css.css" rel = "stylesheet" type = "text/css">
+<h2 align="center">Insert Product and get Product Details page</h2>
+<form method="POST" action = "InsertProduct.do">
+ <p align="center" >Insert Product Details
+ </br></br>
+ Name       :
+<INPUT  TYPE="text"  NAME="name" VALUE = "" >
+ <br></br>
+ Barcode    :
+<INPUT  TYPE="text"  NAME="barcode" VALUE = "" >
+ <br></br>
+ Color      :
+<INPUT  TYPE="text"  NAME="color" VALUE = "" >
+ <br></br>
+Description :
+<INPUT  TYPE="text"  NAME="description" VALUE = "" >
+ <br></br>
+ </p>
+ <center>
+	<input type="SUBMIT" value="Insert Product">
+	<br></br>
+	<input type="button" value="View Products" onclick="ShowProducts()" />
+ </center>
+ 
+ </form>
+</body>
+</html>
