@@ -18,7 +18,7 @@ public class DatabaseConnection {
         // Database name to access 
         String dbName = "Products"; 
         String dbUsername = "root"; 
-        String dbPassword = "deploying"; 
+        String dbPassword = "****"; 
   
         Class.forName(dbDriver).newInstance();
 		java.sql.Connection con;
